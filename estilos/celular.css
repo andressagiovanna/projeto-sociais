@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+body {
+    background: url(../imagens/pexels-alterada.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+   position: relative;
+   height: 100vh;
+    
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -47.4%);
+    height: 580px;
+    width: 512px;
+    background: url(../imagens/Mao_Segurando_Celular_PNG_Transparente_Sem_Fundo_Smartphone.png) no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 9px;
+    left: 48px;
+    width: 206px;
+    height: 446.4px;
+}
