@@ -30,14 +30,33 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -47.4%);
     height: 580px;
-    width: 512px;
-    background: url(../imagens/Mao_Segurando_Celular_PNG_Transparente_Sem_Fundo_Smartphone.png) no-repeat;
+    width: 405px;
+    background: url(../imagens/tela-celular.png) no-repeat;
 }
 
 iframe#tela {
     position: relative;
-    top: 9px;
-    left: 48px;
-    width: 206px;
-    height: 446.4px;
+    top: 58.5px;
+    left: 158px;
+    width: 180.5px;
+    height: 326px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.620);
+    transition: transform .3s, border .2s;
 }
